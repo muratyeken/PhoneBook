@@ -1,0 +1,337 @@
+@import "../index.scss";
+.addContact {
+    background-color: rgba(255, 255, 255, 1);
+    overflow: hidden;
+    padding: 0 0 0 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+.buttonsWrapper {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.addButton,
+.updateButton,
+.deleteButton,
+.cancelButton {
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.addButton {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.updateButton {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.deleteButton {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.cancelButton {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+.addButton:hover,
+.updateButton:hover,
+.deleteButton:hover,
+.cancelButton:hover {
+    background-color: #6c757d;
+    color: #fff;
+}
+.rt37 {
+    width: 1147px;
+    height: 57px;
+    background-color: $dark-slate-gray;
+}
+
+.flexWrapperEight {
+    padding: 0 0 0 19px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.rt155 {
+    width: 2.17%;
+    height: 2.85%;
+    background-color: rgba(235, 237, 243, 1);
+    margin-top: 10px;
+    margin-right: 16px;
+    border-radius: 4px;
+}
+
+.flexWrapperNine {
+    margin-right: 18px;
+    padding: 1px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexWrapperTwo {
+    background-color: rgba(235, 237, 243, 1);
+    margin-bottom: 755px;
+    padding: 0 0 0 4px;
+    display: flex;
+    align-items: center;
+}
+
+.nameSurname {
+    height: 41px;
+    width: 318px;
+    color: $dim-gray;
+    display: flex;
+    align-items: center;
+    @include arial-17-bold;
+}
+
+.lineOne {
+    width: 1px;
+    height: 42px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-right: 3px;
+}
+
+.telNo {
+    height: 41px;
+    width: 168px;
+    color: $dim-gray;
+    display: flex;
+    align-items: center;
+    @include arial-17-bold;
+}
+
+.flexWrapperTen {
+    margin-right: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.flexWrapperEleven {
+    margin-bottom: 147px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.flexWrapperSeven {
+    background-color: rgba(247, 247, 250, 1);
+    margin-top: 6px;
+    border-radius: 4px;
+    padding: 4px 346.16px 5px 9px;
+    display: flex;
+    align-items: center;
+}
+
+.vector {
+    width: 100%;
+    align-self: stretch;
+    object-fit: cover;
+}
+
+.image11 {
+    width: 164px;
+    height: 42px;
+}
+
+.name {
+    height: 24px;
+    width: 172px;
+    font-family: "Arial";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(118, 118, 118, 1);
+    display: flex;
+    text-align: right;
+    position: absolute;
+    left: -53px;
+    top: 83px;
+}
+
+.surname {
+    height: 24px;
+    width: 172px;
+    font-family: "Arial";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(118, 118, 118, 1);
+    display: flex;
+    text-align: right;
+    position: absolute;
+    left: -53px;
+    top: 157px;
+}
+
+.telNo1 {
+    height: 24px;
+    width: 172px;
+    font-family: "Arial";
+    font-size: 22px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(118, 118, 118, 1);
+    display: flex;
+    text-align: right;
+    position: absolute;
+    left: -53px;
+    bottom: 190px;
+}
+
+.flexWrapperThree {
+    background-color: rgba(231, 232, 237, 0.44);
+    border-radius: 10px;
+    padding: 69px 53px 38px 135px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    border: 1px solid rgba(189, 189, 189, 1);
+}
+
+.rt93 {
+    width: 253px;
+    height: 46px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 28px;
+    border-radius: 10px;
+    border: 1px solid rgba(222, 220, 220, 1);
+}
+
+.rt94 {
+    width: 253px;
+    height: 45px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 28px;
+    border-radius: 10px;
+    border: 1px solid rgba(222, 220, 220, 1);
+}
+
+.rt95 {
+    width: 253px;
+    height: 46px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-bottom: 38px;
+    border-radius: 10px;
+    border: 1px solid rgba(222, 220, 220, 1);
+}
+
+.flexWrapperSix {
+    background-color: $crimson;
+    border-radius: 10px;
+    position: relative;
+    border: 1px solid rgba(189, 189, 189, 1);
+}
+
+.flexWrapperOne {
+    padding: 0 0 0 1px;
+    display: flex;
+    align-items: flex-start;
+    position: absolute;
+    left: -1px;
+    top: 0;
+}
+
+.rt19 {
+    width: 293px;
+    height: 43px;
+    background-color: $black;
+    position: absolute;
+    right: 1px;
+    top: 143px;
+}
+
+.rt1 {
+    width: 293px;
+    height: 900px;
+    background-color: $dark-slate-gray;
+    position: relative;
+}
+
+.rt24 {
+    width: 293px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right: 0;
+    top: 186px;
+}
+
+.rt25 {
+    width: 293px;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    right: 0;
+    top: 230px;
+}
+
+.contacts {
+    height: 23px;
+    width: 76px;
+    font-family: "Arial";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: normal;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    position: absolute;
+    left: 44px;
+    top: 154px;
+}
+
+.phoneDirectory {
+    height: 23px;
+    width: 174px;
+    color: rgba(255, 255, 255, 1);
+    display: flex;
+    position: absolute;
+    right: 46px;
+    top: 198px;
+    @include arial-16-regular;
+}
+
+.downarrow1206631 {
+    padding: 4.95px 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 14px;
+    top: 154px;
+}
+
+.vectorTwo {
+    height: 100%;
+    flex: 1;
+    object-fit: cover;
+}
+
+.mbriaddsubmenu994981 {
+    padding: 2.3px 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 44px;
+    top: 198px;
+}
+
+.vectorThree {
+    flex: 1;
+    align-self: stretch;
+    object-fit: cover;
+}

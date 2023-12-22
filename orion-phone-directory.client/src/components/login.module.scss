@@ -1,0 +1,126 @@
+@import "../index.scss";
+.logIn {
+    background: linear-gradient( 180deg, $dark-slate-gray 40%, $transparent-dark-slate-gray 100% );
+    overflow: hidden;
+    padding: 572px 99px 145px 784px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;    
+
+}
+
+.buttonsWrapper {
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 20px; 
+    
+}
+
+.signUpButton,
+.loginButton,
+.forgotPasswordButton {
+    padding: 10px; 
+    margin-right: 20px; 
+    color: orangered;
+}
+
+.signUpButton {
+    background-color: cadetblue;
+    color: white;
+}
+
+.loginButton {
+    background-color: seagreen;
+    color: white;
+}
+
+.forgotPasswordButton {
+    background-color: orangered;
+    color: white;
+    
+}
+
+.flexWrapperOne {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.username {
+    height: 24px;
+    width: 172px;
+    color: $white;
+    display: flex;
+    text-align: right;
+    margin-top: 13px;
+    margin-right: 15px;
+    @include arial-22-regular;
+}
+
+.rt161 {
+    width: 370px;
+    height: 46px;
+    background-color: $white;
+    border-radius: 10px;
+    border: 1px solid $gainsboro;
+}
+
+.flexWrapperTwo {
+    margin-bottom: 38px;
+    padding: 0 0 0 2px;
+    display: flex;
+    align-items: center;
+}
+
+.password {
+    height: 24px;
+    width: 172px;
+    color: $white;
+    display: flex;
+    text-align: right;
+    margin-right: 13px;
+    @include arial-22-regular;
+}
+
+.rt160 {
+    width: 370px;
+    height: 45px;
+    background-color: $white;
+    border-radius: 10px;
+    border: 1px solid $gainsboro;
+}
+
+.flexWrapperThree {
+    padding: 0 0 0 352px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.remindMe {
+    height: 24px;
+    width: 172px;
+    color: $white;
+    display: flex;
+    text-align: right;
+    margin-right: 11px;
+    @include arial-22-regular;
+    align-items: center;
+}
+
+.remindMeCheckbox {
+    margin-right: 5px; 
+}
+
+
+.title {
+    height: 79px;
+    width: 712px;
+    color: $white;
+    display: flex;
+    text-align: right;
+    position: absolute;
+    left: -42px;
+    top: 166px;
+    @include eurostar-100-regular;
+}
